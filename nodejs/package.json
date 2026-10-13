@@ -1,0 +1,15 @@
+{
+  "name": "zyrox-proxy-node-examples",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetch-example.js",
+    "playwright": "node playwright-example.js",
+    "puppeteer": "node puppeteer-example.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "puppeteer": "^22.0.0",
+    "undici": "^6.0.0"
+  }
+}
